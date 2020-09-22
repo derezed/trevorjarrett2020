@@ -27,15 +27,6 @@ module.exports = {
         icon: `src/images/icon.png`
       }
     },
-    {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [
-          require("postcss-nested"),
-          require("postcss-color-function"),
-          require("postcss-hexrgba")
-        ]
-      }
-    }
+    `gatsby-plugin-postcss`,
   ]
 };
