@@ -37,3 +37,77 @@ body {
   max-width: 71.25rem;
   width: 90%;
 }
+
+p,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-ulthuanGrey;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+h4,
+h5,
+h6 {
+  @apply text-lg
+}
+
+/*
+.background-all * {
+  background-color: #057dcd;
+}
+*/
+
+.background-all p,
+.background-all h2 {
+  @apply my-2;
+}
+
+.background-all h2 {
+  @apply mt-0;
+}
+
+.background-all h3 {
+  @apply mt-8;
+  @apply mb-2;
+}
+
+a {
+  @apply text-ulthuanGrey;
+  @apply border-b-2;
+  @apply border-solid;
+  @apply border-ulthuanGrey;
+}
+
+a:hover {
+  @apply border-navyBlue;
+}
+
+a .icon-hover-inactive,
+a:hover .icon-hover-active {
+  display: block;
+}
+
+a .icon-hover-active,
+a:hover .icon-hover-inactive {
+  display: none;
+}
+
+@media (min-width: 880px) {
+  .background-all h3 {
+    @apply mt-10;
+    @apply mb-6;
+  }
+}

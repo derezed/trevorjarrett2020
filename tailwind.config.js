@@ -9,8 +9,11 @@ module.exports = {
       ulthuanGrey: '#e8eef1'
     },
     bodrerColor: theme => ({
-      "royalBlue": '#057dcd'
-    })
+      'navyBlue': '#1e3d58'
+    }),
+    screens: {
+      'desktop': '880px'
+    }
   },
   variants: {},
   plugins: [],
