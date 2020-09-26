@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "gatsby";
 import {
   FaTwitter,
   FaTwitterSquare,
@@ -19,9 +20,9 @@ const Layout = ({ children }) => (
     <div className="max-w-screen-xl w-full h-full flex flex-col desktop:flex-row desktop:justify-between">
       <div className="w-full max-w-xs relative overflow-hidden mr-auto ml-auto">
         <div className="w-40 h-40 ml-auto mr-auto mb-2">
-          <a href="#">
+          <Link to="/">
             <img className="rounded-full" src="https://avatars3.githubusercontent.com/u/3466483?s=460&u=6ccad09f09f771806a19bb77dd4718b1868496bb&v=4" alt="It's me; Trevor Jarrett"/>
-          </a>
+          </Link>
         </div>
         <div className="bg-navyBlue w-1 h-full ml-auto mr-auto absolute left-0 right-0 z-0"></div>
         <div className="w-56 ml-auto mr-auto relative">
@@ -30,19 +31,19 @@ const Layout = ({ children }) => (
           </div>
           <ul className="mt-10 text-center">
             <li className="p-2 mb-5 bg-royalBlue inline desktop:block">
-              <a href="/blog" className="text-ulthuanGrey border-b-2 border-solid border-ulthuanGrey hover:border-navyBlue" href="#">Blog</a>
+              <Link to="blog" className="text-ulthuanGrey border-b-2 border-solid border-ulthuanGrey hover:border-navyBlue" href="#">Blog</Link>
             </li>
             <li className="p-2 mb-5 bg-royalBlue inline desktop:block">
-              <a href="/work" className="text-ulthuanGrey border-b-2 border-solid border-ulthuanGrey hover:border-navyBlue" href="#">Work</a>
+              <Link to="/work" className="text-ulthuanGrey border-b-2 border-solid border-ulthuanGrey hover:border-navyBlue" href="#">Work</Link>
             </li>
             <li className="p-2 mb-5 bg-royalBlue inline desktop:block">
-              <a href="/painting" className="text-ulthuanGrey border-b-2 border-solid border-ulthuanGrey hover:border-navyBlue" href="#">Painting</a>
+              <Link to="/painting" className="text-ulthuanGrey border-b-2 border-solid border-ulthuanGrey hover:border-navyBlue" href="#">Painting</Link>
             </li>
           </ul>
 
           <ul className="mt-10 text-center grid grid-cols-4 desktop:grid-cols-2 desktop:gap-1 bg-royalBlue">
             <li className="p-2 mb-5  inline">
-              <a href="mailto:&#116;&#114;&#101;&#118;&#111;&#114;&#064;&#116;&#114;&#101;&#118;&#111;&#114;&#106;&#097;&#114;&#114;&#101;&#116;&#116;&#046;&#099;&#111;&#109;" target="_blank">
+              <Link to="mailto:&#116;&#114;&#101;&#118;&#111;&#114;&#064;&#116;&#114;&#101;&#118;&#111;&#114;&#106;&#097;&#114;&#114;&#101;&#116;&#116;&#046;&#099;&#111;&#109;" target="_blank">
                 <FaEnvelope
                   className="icon-hover-inactive mr-auto ml-auto"
                   size="2em"
@@ -51,10 +52,10 @@ const Layout = ({ children }) => (
                   className="icon-hover-active mr-auto ml-auto"
                   size="2em"
                 />
-              </a>
+              </Link>
             </li>
             <li className="p-2 mb-5 inline">
-              <a href="https://github.com/derezed" target="_blank">
+              <Link to="https://github.com/derezed" target="_blank">
                 <FaGithub
                   className="icon-hover-inactive mr-auto ml-auto"
                   size="2em"
@@ -63,10 +64,10 @@ const Layout = ({ children }) => (
                   className="icon-hover-active mr-auto ml-auto"
                   size="2em"
                 />
-              </a>
+              </Link>
             </li>
             <li className="p-2 mb-5 inline">
-              <a href="https://twitter.com/SnackAttackTJ" target="_blank">
+              <Link to="https://twitter.com/SnackAttackTJ" target="_blank">
                 <FaTwitter
                   className="icon-hover-inactive mr-auto ml-auto"
                   size="2em"
@@ -75,10 +76,10 @@ const Layout = ({ children }) => (
                   className="icon-hover-active mr-auto ml-auto"
                   size="2em"
                 />
-              </a>
+              </Link>
             </li>
             <li className="p-2 mb-5 inline">
-              <a href="https://www.instagram.com/txrev1991/" target="_blank">
+              <Link to="https://www.instagram.com/txrev1991/" target="_blank">
                 <FaInstagram
                   className="icon-hover-inactive mr-auto ml-auto"
                   size="2em"
@@ -87,7 +88,7 @@ const Layout = ({ children }) => (
                   className="icon-hover-active mr-auto ml-auto"
                   size="2em"
                 />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
