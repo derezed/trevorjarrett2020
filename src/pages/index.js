@@ -20,7 +20,7 @@ export default () => (
 
     <ul className="grid grid-cols-1 desktop:grid-cols-2 gap-10">
       <li className="block">
-        <h4 className="mb-0 flex items-center">
+        <h4 className="mb-0 items-center inline-flex">
           <FaDiceD20
             className="mr-2"
           />
@@ -29,7 +29,7 @@ export default () => (
         <p>From Catan, to Scythe, to Warhammer 40,000, you can find my board game shelf packed with all types of board games: roll and move, worker placement, deck building, area controls, miniature wargaming, etc.</p>
       </li>
       <li className="block">
-        <h4 className="mb-0 flex items-center">
+        <h4 className="mb-0 items-center inline-flex">
           <FaPaintBrush
             className="mr-2"
           />
@@ -38,7 +38,7 @@ export default () => (
         <p>I've been paining for 2+ years. BattleTech, Kingdom Death, Warhammer 40,000, anything I find that looks fun, I'll paint. It's a nice creative outlet after being in front of a computer all day. Checkout my <a href="https://www.instagram.com/txrev1991/" target="_blank">Instagram</a> to view my work.</p>
       </li>
       <li className="block">
-        <h4 className="mb-0 flex items-center">
+        <h4 className="mb-0 items-center inline-flex">
           <FaGamepad
             className="mr-2"
           />
@@ -47,7 +47,7 @@ export default () => (
         <p>I'm a sucker for RPG's and MMO's. I enjoy other genres like strategy games, city builders, and adventure games. Currently flying planes in Microsoft Flight Simulator 2020 while eagerly waiting Cyberpunk 2077.</p>
       </li>
       <li className="block">
-        <h4 className="mb-0 flex items-center">
+        <h4 className="mb-0 items-center inline-flex">
           <FaBook
             className="mr-2"
           />

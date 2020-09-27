@@ -65,23 +65,28 @@ h6 {
 }
 
 /*
-.background-all * {
+.right-content * {
   background-color: #057dcd;
 }
 */
 
-.background-all p,
-.background-all h2 {
+.right-content p,
+.right-content h2 {
   @apply my-2;
 }
 
-.background-all h2 {
+.right-content h2 {
   @apply mt-0;
 }
 
-.background-all h3 {
+.right-content h3 {
   @apply mt-8;
   @apply mb-2;
+}
+
+.blog-list a:hover h3,
+.blog-list a:hover p {
+  text-decoration: underline;
 }
 
 .blog-list h3 {
@@ -128,7 +133,7 @@ a:hover .icon-hover-inactive {
 }
 
 @media (min-width: 880px) {
-  .background-all h3 {
+  .right-content h3 {
     @apply mt-10;
     @apply mb-6;
   }
