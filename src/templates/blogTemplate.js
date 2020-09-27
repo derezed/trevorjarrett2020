@@ -91,7 +91,7 @@ export default function Template ({data}) {
         </div>
         <div className="w-full max-w-3xl mt-8 desktop:mt-2 relative overflow-hidden">
           <div className="background-all relative">
-            <div className="w-full heading relative mr-5 mt-8 mb-2">
+            <div className="w-full heading relative mr-5 mb-2">
               <h2 className="mb-2 mr-5 inline font-bold">{frontmatter.title}, <span className="text-base font-normal">{frontmatter.date}</span></h2>
             </div>
             <div

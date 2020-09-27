@@ -16,15 +16,15 @@ export default () => (
       <h2 className="text-2xl inline mr-5 font-bold">Front-end dev with ~10 years experience.</h2>
     </div>
     <p>IUPUI School of Informatics graduate from from Indianapolis, Indiana. I enjoy building front-end experiences with cutting edge libraries.</p>
-    <p>Currently writing code at <a href="https://trendyminds.com" target="_blank">TrendyMinds</a> for a wide range of big and small clients.</p>
+    <p>Currently writing code at <a href="https://trendyminds.com" target="_blank" rel="noopener noreferrer">TrendyMinds</a> for a wide range of big and small clients.</p>
 
     <div className="w-full heading relative mr-5 mt-8 mb-2">
-      <h3 className="inline mr-5 font-bold">In my free time you can find me...</h3>
+      <h3 className="inline mr-5 font-bold text-xl">In my free time you can find me...</h3>
     </div>
 
     <ul className="grid grid-cols-1 desktop:grid-cols-2 gap-10">
       <li className="block">
-        <h4 className="mb-0 items-center inline-flex">
+        <h4 className="mb-0 items-center inline-flex text-lg">
           <FaDiceD20
             className="mr-2"
           />
@@ -33,16 +33,16 @@ export default () => (
         <p>From Catan, to Scythe, to Warhammer 40,000, you can find my board game shelf packed with all types of board games: roll and move, worker placement, deck building, area controls, miniature wargaming, etc.</p>
       </li>
       <li className="block">
-        <h4 className="mb-0 items-center inline-flex">
+        <h4 className="mb-0 items-center inline-flex text-lg">
           <FaPaintBrush
             className="mr-2"
           />
           Painting Minatures
         </h4>
-        <p>I've been paining for 2+ years. BattleTech, Kingdom Death, Warhammer 40,000, anything I find that looks fun, I'll paint. It's a nice creative outlet after being in front of a computer all day. Checkout my <a href="https://www.instagram.com/txrev1991/" target="_blank">Instagram</a> to view my work.</p>
+        <p>I've been paining for 2+ years. BattleTech, Kingdom Death, Warhammer 40,000, anything I find that looks fun, I'll paint. It's a nice creative outlet after being in front of a computer all day. Checkout my <a href="https://www.instagram.com/txrev1991/" target="_blank" rel="noopener noreferrer">Instagram</a> to view my work.</p>
       </li>
       <li className="block">
-        <h4 className="mb-0 items-center inline-flex">
+        <h4 className="mb-0 items-center inline-flex text-lg">
           <FaGamepad
             className="mr-2"
           />
@@ -51,7 +51,7 @@ export default () => (
         <p>I'm a sucker for RPG's and MMO's. I enjoy other genres like strategy games, city builders, and adventure games. Currently flying planes in Microsoft Flight Simulator 2020 while eagerly waiting Cyberpunk 2077.</p>
       </li>
       <li className="block">
-        <h4 className="mb-0 items-center inline-flex">
+        <h4 className="mb-0 items-center inline-flex text-lg">
           <FaBook
             className="mr-2"
           />

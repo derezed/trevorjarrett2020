@@ -6,7 +6,7 @@ title: "Another Redesign"
 
 ### I swear, I redesign my site as often as I change clothes.
 
-That's a being overdramatic.
+That's being overdramatic.
 
 Earlier this year I decided to do something with the server I was paying for. As usual though, that didn't last too long. I go through this cycle of remembering I pay for hosting, redesign my site, set blogging goals...and I've given up on them.
 
