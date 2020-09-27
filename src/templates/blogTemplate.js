@@ -89,14 +89,11 @@ export default function Template ({data}) {
             </ul>
           </div>
         </div>
-        <div className="w-full max-w-3xl mt-8 desktop:mt-2 relative">
-          {/* <div className="bg-navyBlue w-1 h-screen absolute left-0 right-0 z-0"></div> */}
+        <div className="w-full max-w-3xl mt-8 desktop:mt-2 relative overflow-hidden">
           <div className="background-all relative">
-            <h2>{frontmatter.title}</h2>
-            <p>{frontmatter.date}</p>
-
-            <div className="max-w-md w-full h-1 bg-ulthuanGrey" />
-
+            <div className="w-full heading relative mr-5 mt-8 mb-2">
+              <h2 className="mb-2 mr-5 inline font-bold">{frontmatter.title}, <span className="text-base font-normal">{frontmatter.date}</span></h2>
+            </div>
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{__html: html}}

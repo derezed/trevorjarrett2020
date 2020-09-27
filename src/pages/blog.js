@@ -16,7 +16,9 @@ const Blog = ({
     <Layout>
       <SEO title="Blog | Trevor Jarrett " />
 
-      <h2 className="text-2xl">Blog</h2>
+      <div className="w-full heading relative mr-5 mt-8 mb-2">
+        <h2 className="text-2xl inline mr-5 font-bold">Blog</h2>
+      </div>
       <p>This blog is mostly for me to document things I've learned, what I'm working on, or something else.</p>
       <p>It should be noted that these opinions are my own and do not reflect those of my employer.</p>
 

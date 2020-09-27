@@ -64,11 +64,15 @@ h6 {
   @apply text-lg
 }
 
-/*
-.right-content * {
-  background-color: #057dcd;
+.heading::after {
+  content: "";
+  height: 2px;
+  top: 50%;
+  @apply inline-block;
+  @apply bg-ulthuanGrey;
+  @apply w-full;
+  @apply absolute;
 }
-*/
 
 .right-content p,
 .right-content h2 {
@@ -77,11 +81,6 @@ h6 {
 
 .right-content h2 {
   @apply mt-0;
-}
-
-.right-content h3 {
-  @apply mt-8;
-  @apply mb-2;
 }
 
 .blog-list a:hover h3,
@@ -109,6 +108,11 @@ h6 {
 .blog-post-content h4 {
   @apply mt-8;
   @apply mb-4;
+}
+
+.blog-post-content h3,
+.blog-post-content h4 {
+  @apply font-bold;
 }
 
 a {

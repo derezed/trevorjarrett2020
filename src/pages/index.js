@@ -12,11 +12,15 @@ export default () => (
   <Layout>
     <SEO title="Trevor Jarrett" />
 
-    <h2 className="text-2xl">Front-end dev with ~10 years experience.</h2>
+    <div className="w-full heading relative">
+      <h2 className="text-2xl inline mr-5 font-bold">Front-end dev with ~10 years experience.</h2>
+    </div>
     <p>IUPUI School of Informatics graduate from from Indianapolis, Indiana. I enjoy building front-end experiences with cutting edge libraries.</p>
     <p>Currently writing code at <a href="https://trendyminds.com" target="_blank">TrendyMinds</a> for a wide range of big and small clients.</p>
 
-    <h3 className="mb-10 desktop:mb-0">In my free time you can find me...</h3>
+    <div className="w-full heading relative mr-5 mt-8 mb-2">
+      <h3 className="inline mr-5 font-bold">In my free time you can find me...</h3>
+    </div>
 
     <ul className="grid grid-cols-1 desktop:grid-cols-2 gap-10">
       <li className="block">
