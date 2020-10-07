@@ -12,7 +12,7 @@ export default () => (
   <Layout>
     <SEO title="Trevor Jarrett" />
 
-    <div className="w-full heading relative">
+    <div className="w-full heading heading-adjustment relative">
       <h2 className="text-2xl inline mr-5 font-bold">Front-end dev with ~10 years experience.</h2>
     </div>
     <p>IUPUI School of Informatics graduate from from Indianapolis, Indiana. I enjoy building front-end experiences with cutting edge libraries.</p>

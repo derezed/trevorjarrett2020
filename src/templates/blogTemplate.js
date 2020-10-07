@@ -37,7 +37,7 @@ export default function Template ({data}) {
               </li>
             </ul>
 
-            <ul className="mt-10 text-center">
+            <ul className="mt-10 text-center flex justify-between bg-royalBlue desktop:block">
               <li className="p-2 mb-5 bg-royalBlue">
                 <Link to="mailto:&#116;&#114;&#101;&#118;&#111;&#114;&#064;&#116;&#114;&#101;&#118;&#111;&#114;&#106;&#097;&#114;&#114;&#101;&#116;&#116;&#046;&#099;&#111;&#109;" target="_blank">
                   <FaEnvelope

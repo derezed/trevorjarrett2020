@@ -150,6 +150,10 @@ a:hover .icon-hover-inactive {
 }
 
 @media (min-width: 880px) {
+  .heading.heading-adjustment::after {
+    top: 75%;
+  }
+
   .right-content h3 {
     @apply mt-10;
     @apply mb-6;
@@ -162,5 +166,11 @@ a:hover .icon-hover-inactive {
 
   .blog-post-content h3 {
     @apply mt-10;
+  }
+}
+
+@media (min-width: 902px) {
+  .heading.heading-adjustment::after {
+    top: 50%;
   }
 }
