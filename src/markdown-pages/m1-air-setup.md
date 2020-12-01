@@ -38,3 +38,8 @@ VS Code does feel sugglish through Rosetta 2, its noticable when trying to modif
 
 ## What now?
 I guess that's it? I feel like the major installs were easy. The hardest part is going to be trying to remember to use the `arch -x86_64` command!
+
+### Update
+After some node install failures I came across this SO (https://github.com/nvm-sh/nvm/issues/2350#issuecomment-734132550)[https://github.com/nvm-sh/nvm/issues/2350#issuecomment-734132550] and after doing that, everything works perfect.
+
+I can settle for running my terminal through Rosetta 2 for awhile.
