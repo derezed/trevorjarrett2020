@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-pura",
+  "name": "Trevor Jarrett",
   "private": true,
-  "description": "A Pura starter template for Gatsby",
+  "description": "Trevor Jarrett - Indianapolis Based Web Dev",
   "version": "1.0.0",
   "dependencies": {
     "gatsby": "^2.15.33",
@@ -19,7 +19,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
-    "react-icons": "^3.11.0"
+    "react-icons": "^3.11.0",
+    "sharp": "^0.23.1"
   },
   "devDependencies": {
     "gatsby-plugin-postcss": "^2.3.12",

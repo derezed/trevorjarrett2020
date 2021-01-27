@@ -105,7 +105,8 @@ h6 {
   @apply mb-2;
 }
 
-.blog-post-content h3 {
+.blog-post-content h3,
+.blog-post-content pre {
   @apply mb-8;
 }
 
@@ -173,4 +174,10 @@ a:hover .icon-hover-inactive {
   .heading.heading-adjustment::after {
     top: 50%;
   }
+}
+
+pre {
+  color: white;
+  background: black;
+  @apply p-4;
 }
