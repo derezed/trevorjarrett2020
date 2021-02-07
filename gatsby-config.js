@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Pura`,
-    description: `Pura is an opinionated, but lightweight Gatsby starter kit.`,
-    author: `@trendyminds`
+    title: `Trevor Jarrett`,
+    description: `Indy based Web Dev.`,
+    author: `@SnackAttackTJ`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,11 +18,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pura`,
-        short_name: `pura`,
+        name: `Trevor Jarrett`,
+        short_name: `trevor-jarrett`,
         start_url: `/`,
-        background_color: `#333c45`,
-        theme_color: `#333c45`,
+        background_color: `#057dcd`,
+        theme_color: `#057dcd`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`
       }
